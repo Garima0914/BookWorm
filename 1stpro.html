@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bookworm - Online Library</title>
+    <link rel="icon" href="/pictures/logo.png">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Bookworm</div>
+            
+            <ul>
+                <li><a href="home.html">Free Books</a></li>
+                <li><a href="#">Write</a></li>
+                <!-- <li><a href="#">Community</a></li> -->
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Catagories</a></li>
+                
+                <li><a href="#">Others</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" placeholder="Search by keywords">
+                <button>Search</button>
+            </div>
+            <div class="auth">
+                <a href="SignIn.html">Sign In</a>
+                <a href="#">Sign Up</a>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="/pictures/Blue Colorful Cute School Library Introduction Presentation.gif" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="/pictures/Blue Colorful Cute School Library Introduction Presentation (1).gif" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="/pictures/Find (2).gif" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="/pictures/Find (3).gif" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<section class="new-arrivals">
+        <h2>NEW ARRIVALS</h2>
+        <div class="category-filters">
+            <button>All</button>
+            <button>Cook Book</button>
+            <button>History</button>
+            <button>Fantasy</button>
+            <button>Romance</button>
+            <button>Science</button>
+        </div>
+        <!-- <div class="book-grid">
+            <div class="book-item">
+                <img src="book1.jpg" alt="Donate A Book">
+                <div class="book-info">
+                    <p>DONALD WILLIAM</p>
+                    <h3>Donate A Book</h3>
+                    <p class="price">$10.00</p>
+                </div>
+            </div>
+            <div class="book-item">
+                <img src="book2.jpg" alt="Endless Summer">
+                <div class="book-info">
+                    <p>JOHN ERIK</p>
+                    <h3>Endless Summer</h3>
+                    <p class="price">$30.00</p>
+                </div>
+            </div>
+            <div class="book-item">
+                <img src="book3.jpg" alt="103 Home Cooked Meals">
+                <div class="book-info">
+                    <p>ALICE JAMES</p>
+                    <h3>103 Home Cooked Meals</h3>
+                    <p class="price">$30.00</p>
+                </div>
+            </div>
+            <div class="book-item">
+                <img src="book4.jpg" alt="The Stag By The Cabin">
+                <div class="book-info">
+                    <p>MICHAEL ALICE</p>
+                    <h3>The Stag By The Cabin</h3>
+                    <p class="price">$40.00</p>
+                </div>
+            </div>
+            Add more book items as necessary -->
+    </section>
+
+<main>
+        <section class="hero">
+            <h1>Featured Books of the February</h1>
+            <button>See More</button>
+        </section>
+        <section class="categories">
+            <h2>Featured Categories</h2>
+            <div class="category-list">
+                <div class="category-item">Arts & Photography</div>
+                <div class="category-item">Food & Drink</div>
+                <div class="category-item">Romance</div>
+                <div class="category-item">Health</div>
+                <div class="category-item">Biography</div>
+            </div>
+        </section>
+        <section class="bestselling-books">
+            <h2>Bestselling Books</h2>
+            <div class="book-list">
+                <div class="book-item"><a href=""><img src="Remindersofhim.jpg" alt="" class="image"></a></div>
+                <div class="book-item"><a href=""><img src="verity.jpg" alt="" class="image"></a></div>
+                <div class="book-item"><a href=""><img src="nov9.jpg" alt="" class="image"></a></div>
+                <div class="book-item"><a href=""><img src="themaid.jpg" alt="" class="image"></a></div>
+                <div class="book-item"><a href=""><img src="itendswithus.jpg" alt="" class="image"></a></div>
+                <div class="book-item"><a href=""><img src="bringmeback.jpg" alt="" class="image"></a></div>
+                <div class="book-item"><a href=""><img src="thewifebetus.jpg" alt="" class="image"></a></div>
+                <div class="book-item"><a href=""><img src="car.jpg" alt="" class="image"></a></div>
+                
+            </div>
+        </section>
+        <section class="featured-books">
+            <h2>Featured Books</h2>
+            <div class="book-list">
+                <div class="book-item"><a href=""><img src="goodasgone.jpg" alt="" class="image"></a></div>
+                <div class="book-item"><a href=""><img src="bloodorage.jpg" alt="" class="image"></a></div>
+                <div class="book-item"><a href=""><img src="go.jpg" alt="" class="image"></a></div>
+                <div class="book-item"><a href=""><img src="eye.jpg" alt="" class="image"></a></div>
+                <div class="book-item"><a href=""><img src="goodasgone.jpg" alt="" class="image"></a></div>
+                <div class="book-item"><a href=""><img src="goodasgone.jpg" alt="" class="image"></a></div>
+                <div class="book-item"><a href=""><img src="goodasgone.jpg" alt="" class="image"></a></div>
+                <div class="book-item"><a href=""><img src="goodasgone.jpg" alt="" class="image"></a></div>
+            </div>
+        </section>
+        
+    </main>
+
+    
+
+    <!-- <div class="text">
+        <q>Welcome to our online book reading platform, where you can explore our vast library, discover new genres and authors, and read books for free. Start your literary adventure today!</q>
+    </div> -->
+    <script type="text/javascript" src="javascript.js"></script>
+    <br>
+    <div class="mid">
+    <div class="about">
+        <h2>A Little About Us</h2>
+        <img src="5.jpg" height="140" width="270">
+        <p>
+        We are a online reading website that speciallizes in providing wide range of reading experience. We help to deliver best products to our customers and create a systematic environment. We have been meeting the expections of our customers very well. Our company ensures that we deliver what we said to deliver.
+        </p>
+        <p class="2nd">
+             You can find various works by various authors that you need in our website.
+                You can read anything you like and find any thing you wish to find in our website.
+        </p>
+
+        <button class="read">Read more</button>
+    </div>
+    <br>
+    <div class="Another">
+        <h2>Some of Our Services</h2>
+        <div class="new">
+            <img src="icon.png">
+            <a href="">Discover New Genres and Authors</a>
+            <ul><li>    Explore Diverse Genres</li>
+                <li>    Discover Emerging Talents</li>
+                <li>    Expand Your Horizons</li>
+                <li>    Curated Recommendations</li></ul>
+        </div>
+        <!-- <div class="new">
+            <img src="icon.png">
+            <a href="">Read Books for Free</a>
+            Unlimited Access to Our Digital Library
+
+Dive into our expansive digital library and enjoy unlimited access to a vast collection of ebooks, audiobooks, and more. Explore classic literature, bestsellers, and hidden gems without the need to purchase individual titles.
+
+No Subscription Fees
+
+Enjoy free reading without the burden of monthly subscription fees. Our platform is accessible to all, providing an equitable opportunity for everyone to indulge in the joy of reading.
+
+Anytime, Anywhere Access
+        </div> -->
+        <div class="new">
+            <img src="icon.png">
+            <a href="">Service Title</a>
+            This is the servide we provide.
+            this is the service we provide.
+            this is the service we provide.
+        </div>
+        <div class="new">
+            <img src="icon.png">
+            <a href="">Service Title</a>
+            This is the servide we provide.
+            this is the service we provide.
+            this is the service we provide.
+        </div>
+    <div class="hello">
+        <div class="new">
+            <img src="icon.png">
+            <a href="">Service Title</a>
+            This is the servide we provide.
+            this is the service we provide.
+            this is the service we provide.
+        </div>
+        <div class="new">
+            <img src="icon.png">
+            <a href="">Service Title</a>
+            This is the servide we provide.
+            this is the service we provide.
+            this is the service we provide.
+        </div>
+        </div>
+        <button class="service">Click for more Service</button>
+        </div>
+        <div class="last">
+            <h2>What our Customers Say</h2>
+            <div class="comment">
+                <img src="quote.png">
+                <p><strong>Henry Cavil</strong></p>
+                <p>This is the best platform for reading online. It features mostly the best works.
+                I prefer to reading from here rather than any other sites. I will keep reading from here. Thank you for making reading experience more joyful.</p>
+            </div>
+            <div class="comment">
+                <img src="quote.png">
+                <p><strong>Whyme tho</strong></p>
+                <p>This is the best platform for reading online. It features mostly the best works.
+                    I prefer to reading from here rather than any other sites. I will keep reading from here. Thank you for making reading experience more joyful.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="bottom">
+    <div class="details flex-item">
+         <h2>Company Details</h2>
+    <pre>   
+ BookWorm
+ Dallu 15
+ Kathmandu
+ 123450
+
+ Tel: 01 1234567
+ Fax: 1223 41232
+ Email:<a href="">BW@gmail.com</a>
+
+ Office Hours
+ Monday - Friday:09:00 - 05:00
+ Saturday: 09:00 - 01:00
+        </pre>
+    </div>
+    <div class="Social flex-item">
+        <h2>Stay Social</h2>
+    <div class="soc">
+        <img src="link.png">
+        <a href="">Get linked up in LinkedIn</a>
+    </div>
+    <div class="soc">
+        <img src="tweat.png">
+        <a href="">Keep up with our Tweets</a>
+    </div>
+    <div class="soc">
+        <img src="pin.png">
+        <a href="">Photos on Pinterest</a>
+    </div>
+    <div class="soc">
+        <img src="rss.png">
+        <a href="">RSS Feed</a>
+    </div>
+    </div>
+    <div class="blog flex-item">
+        <h2>From The Blog</h2>
+        <div class="blogs" id="expandableDiv">
+        <p>
+            <h4>Blog Post title</h4>
+            Posted by admin on 01.01.2023
+            <br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exer
+        </p>
+        <button onclick="addContent()">Read more</button>
+        </div>
+        <div class="blogs">
+        <p>
+            <h4>Blog Post title</h4>
+            Posted by admin on 01.01.2023
+            <br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitati
+        </p>
+        <p class="2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ul
+        </p>
+        <button class="blog2">Read more</button>
+        </div>
+    </div>
+
+    <div class=""></div>
+</div>
+<footer>
+        <p>&copy; 2024 Bookworm</p>
+    </footer>
+
+
+</body>
+</html>

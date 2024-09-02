@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('background.jpg'); /* Replace with your image path */
+            background-size: cover;
+            background-position: center;
+        }
+
+        .login-container {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .login-container h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .login-container input[type="email"],
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 15px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .login-container input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        .login-container input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 20px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .login-container input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        .login-container .links {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+
+        .login-container .links a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .login-container .links a:hover {
+            text-decoration: underline;
+        }
+
+        .login-container .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .login-container .logo img {
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        .login-container .logo h2 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo">
+            <img src="/pictures/logo.png" alt="Logo"> <!-- Replace with your logo path -->
+            <h2 style="font-family: Gabriola; font-size: 50px;">Bookworm</h2>
+        </div>
+        <h1>Welcome Back!</h1>
+        <form action="#">
+            <input type="email" placeholder="Enter your email address" required>
+            <input type="password" placeholder="Enter your password" required>
+            <div class="links">
+                <label><input type="checkbox"> Stay logged in</label>
+                <a href="#">I've forgotten my password</a>
+            </div>
+            <input type="submit" value="Sign In">
+        </form>
+    </div>
+</body>
+</html>

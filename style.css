@@ -1,0 +1,152 @@
+.head{
+            line-height: 2px;
+            float: left;
+            padding-right: 350px;
+            height: 60px;
+
+        }
+        .menu a{
+            display: block;
+            color: black;
+            text-decoration: none;
+            padding: 21px 10px;
+            font-size: 14px ;
+            background-color: white;
+            float: left;
+            text-align: center;
+            margin-right: 20px;
+            margin-left: 20px;
+
+        }
+        .menu{
+            border-top: 5px solid green;
+            border-bottom: 0.5px solid green;
+            display: block;
+            height: 60px;
+                 }
+        .menu a:hover{
+            background-color: limegreen;
+        }
+        .text{
+            padding: 30px 60px;
+            text-align: center;
+
+        }
+    body{
+    padding: 0;
+    margin: 0;
+    }   
+    .slider{
+        position: relative;
+        display: block;
+        width: 920px;
+        align-content: center;
+        padding-left: 250px;
+        padding-bottom: 50px;
+
+    }
+    .slider .slider{
+        display: block;
+        position: absolute;
+        height: 350px;
+        width: 920px;
+        top: 0;
+        left: 0;
+        align-content: center;
+
+    }
+    .slider .slide img{
+        width: 920px;
+        height: 350px;
+        align-content: center;
+    }
+    .slider .slide .text{
+        position: absolute;
+        bottom: 3px;
+        right: 200px;
+        color: black;
+        font-size: 30px;
+        background-color: rgba(0, 0, 0,0.1);
+        padding: 40px;
+    }
+    .slider .slide .next:hover, .slider .slide .pre:hover{
+        background-color: skyblue;
+        cursor: pointer;
+    }
+
+    .slider .slide .next,.slider .slide .pre{
+        position: absolute;
+        top: 40%;
+        color: white;
+        font-size: 30px;
+        padding: 20px;
+    }
+    .slider .slide .next{
+        right: 0px;
+    }
+.about{
+    width: 290px;
+    height: 330px;
+    display: block;
+    float: none;
+    position: relative;
+
+}
+button{
+    align-content: right;
+    background-color: rgba(0, 0, 0, 0);
+    color: green;
+    float: right;
+    border: 0px solid;
+}
+.mid{
+    display: flex;
+    border-top: 0.5px solid rgba(0, 0, 0, 0.3);
+}
+.mid>div{
+    height: 450px;
+    width: 550px;
+}
+.new{
+    height: 105px;
+    width:100% ;
+}
+.new>img{
+    float: left;
+    height: 64px;
+    width: 64px;
+}
+.comment>img{
+    float: left;
+    height: 60px;
+    width: 60px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    background-color: rgb(65, 65, 65);
+    color: whitesmoke;
+}
+.flex-item{
+    height: 400px;
+    width: 300px;
+
+}
+.bottom a{
+    color: green;
+}
+.soc{
+    height: 80px;
+    width: 100%;
+
+}
+.soc>img{
+    float: left;
+    height: 30px;
+    width: 30px;
+}
+.blogs{
+    height: 150px;
+    width: 100%;
+}
