@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+    <div class="admin-container">
+        <h1>Admin Panel</h1>
+        <div id="add-book">
+            <h2>Add a New Book</h2>
+            <form id="add-book-form">
+                <label for="title">Book Title:</label>
+                <input type="text" id="title" name="title" required><br><br>
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author" required><br><br>
+                <button type="submit">Add Book</button>
+            </form>
+        </div>
+        
+        <div id="edit-book">
+            <h2>Edit Book Details</h2>
+            <!-- Form for editing books -->
+        </div>
+        
+        <div id="remove-book">
+            <h2>Remove a Book</h2>
+            <!-- Form for removing books -->
+        </div>
+        
+
+        <div class="admin-content">
+            <!-- Content for adding, editing, and removing books will go here -->
+        </div>
+    </div>
+    <script src="js/admin.js"></script>
+</body>
+</html>
