@@ -130,14 +130,14 @@
     color: #fff;
 }
 
-.book-grid{
+.book-grid, .category-grid{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
 }
 
-.book-item {
+.book-item, .category-item {
     background-color: #fff;
     padding: 15px;
     width: 200px;
@@ -151,13 +151,13 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.book-item img {
+.book-item img, .category-item img {
     width: 100%;
     border-radius: 5px;
     margin-bottom: 15px;
 }
 
-.book-info p {
+.book-info p, .category-item p {
     margin: 5px 0;
     color: #777;
 }
@@ -214,7 +214,7 @@ body{
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 100%;
+  max-width: 80%;
   position: relative;
   margin: auto;
 }

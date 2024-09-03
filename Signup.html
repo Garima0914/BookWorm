@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <style>
+        body {
+            font-family: 'Times New Roman';
+            display: flex;
+            justify-content: center;
+            align-items: left;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+        }
+
+        .left-side {
+            background-color: #2ecc71;
+            color: #fff;
+            padding: 40px;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            width: 300px;
+            text-align: left;
+        }
+
+        .left-side h2 {
+            margin-bottom: 20px;
+        }
+
+        .left-side p {
+            margin-bottom: 0;
+        }
+
+        .right-side {
+            padding: 40px;
+            width: 400px;
+        }
+
+        .right-side input,
+        .right-side textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+
+        .right-side button {
+            background-color: #2ecc71;
+            color: #fff;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .right-side button:hover {
+            background-color: #27ae60;
+        }
+
+        .right-side .checkbox-container {
+            display:flex;
+            align-items: left;
+            margin-bottom: 20px;
+        }
+
+        .right-side .checkbox-container input {
+            margin-left: 5px;
+        }
+
+        .right-side .or-text {
+            text-align: left;
+            margin-bottom: 15px;
+        }
+
+        .right-side .login-link {
+            color: #2ecc71;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <h2>Sign Up</h2>
+            <p>To use all features of the application</p>
+        </div>
+        <div class="right-side">
+            <form action="connect.php" method="post">
+                <div>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+                <div>
+                    <label for="repeat-password">Repeat Password:</label>
+                    <input type="password" id="repeat-password" name="repeat-password" placeholder="Repeat your password" required>
+                </div>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="terms-checkbox" name="terms-checkbox" required>
+                    <label for="terms-checkbox">I agree with terms and conditions</label>
+                </div>
+                <button type="submit">Sign Up</button>
+                <div class="or-text">or</div>
+                <a href="SignIn.html" class="login-link">Log In</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

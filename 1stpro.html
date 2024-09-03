@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Bookworm - Online Library</title>
-    <link rel="icon" href="/pictures/logo.png">
+    <link rel="icon" href="/BookWorm/pictures/logo.png">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
@@ -14,13 +14,12 @@
             <div class="logo">Bookworm</div>
             
             <ul>
-                <li><a href="home.html">Free Books</a></li>
-                <li><a href="#">Write</a></li>
+                <li><a href="category.html">Category</a></li>
+                <li><a href="#">My Library</a></li>
                 <!-- <li><a href="#">Community</a></li> -->
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Catagories</a></li>
-                
-                <li><a href="#">Others</a></li>
+                <li><a href="#">Audio Books</a></li>
+                <li><a href="#">Favourite</a></li>
+                <li><a href="#">Settings</a></li>
             </ul>
             <div class="search">
                 <input type="text" placeholder="Search by keywords">
@@ -28,7 +27,8 @@
             </div>
             <div class="auth">
                 <a href="SignIn.html">Sign In</a>
-                <a href="#">Sign Up</a>
+                <a href="Signup.html">Sign Up</a>
+
             </div>
         </nav>
     </header>
@@ -40,22 +40,22 @@
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 4</div>
-    <img src="/pictures/Blue Colorful Cute School Library Introduction Presentation.gif" style="width:100%">
-  </div>
+    <img src="/BookWorm/pictures/Blue Colorful Cute School Library Introduction Presentation.gif" style="width:100%">
+</div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 4</div>
-    <img src="/pictures/Blue Colorful Cute School Library Introduction Presentation (1).gif" style="width:100%">
+    <img src="/BookWorm/pictures/Blue Colorful Cute School Library Introduction Presentation (1).gif" style="width:100%">
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 4</div>
-    <img src="/pictures/Find (2).gif" style="width:100%">
+    <img src="/BookWorm/pictures/Find (2).gif" style="width:100%">
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 4</div>
-    <img src="/pictures/Find (3).gif" style="width:100%">
+    <img src="/BookWorm/pictures/Find (3).gif" style="width:100%">
   </div>
 
   <!-- Next and previous buttons -->
@@ -71,51 +71,7 @@
   <span class="dot" onclick="currentSlide(3)"></span>
 </div>
 
-<section class="new-arrivals">
-        <h2>NEW ARRIVALS</h2>
-        <div class="category-filters">
-            <button>All</button>
-            <button>Cook Book</button>
-            <button>History</button>
-            <button>Fantasy</button>
-            <button>Romance</button>
-            <button>Science</button>
-        </div>
-        <!-- <div class="book-grid">
-            <div class="book-item">
-                <img src="book1.jpg" alt="Donate A Book">
-                <div class="book-info">
-                    <p>DONALD WILLIAM</p>
-                    <h3>Donate A Book</h3>
-                    <p class="price">$10.00</p>
-                </div>
-            </div>
-            <div class="book-item">
-                <img src="book2.jpg" alt="Endless Summer">
-                <div class="book-info">
-                    <p>JOHN ERIK</p>
-                    <h3>Endless Summer</h3>
-                    <p class="price">$30.00</p>
-                </div>
-            </div>
-            <div class="book-item">
-                <img src="book3.jpg" alt="103 Home Cooked Meals">
-                <div class="book-info">
-                    <p>ALICE JAMES</p>
-                    <h3>103 Home Cooked Meals</h3>
-                    <p class="price">$30.00</p>
-                </div>
-            </div>
-            <div class="book-item">
-                <img src="book4.jpg" alt="The Stag By The Cabin">
-                <div class="book-info">
-                    <p>MICHAEL ALICE</p>
-                    <h3>The Stag By The Cabin</h3>
-                    <p class="price">$40.00</p>
-                </div>
-            </div>
-            Add more book items as necessary -->
-    </section>
+
 
 <main>
         <section class="hero">
@@ -125,38 +81,41 @@
         <section class="categories">
             <h2>Featured Categories</h2>
             <div class="category-list">
-                <div class="category-item">Arts & Photography</div>
-                <div class="category-item">Food & Drink</div>
-                <div class="category-item">Romance</div>
-                <div class="category-item">Health</div>
-                <div class="category-item">Biography</div>
+                <div class="category-item"><a href=""><img src="/BookWorm/pictures/Art&Photo.jpg" alt="" class="image"></a>Arts & Photography</div>
+                <div class="category-item"><a href=""><img src="/BookWorm/pictures/Food&Drinks.jpg" alt="" class="image"></a>Food & Drink</div>
+                <div class="category-item"><a href=""><img src="/BookWorm/pictures/romance.jpg" alt="" class="image"></a>Romance</div>
+                <div class="category-item"><a href=""><img src="/BookWorm/pictures/healthbook.jpg" alt="" class="image"></a>Health</div>
+                <div class="category-item"><a href=""><img src="/BookWorm/pictures/biography.jpg" alt="" class="image"></a>Biography</div>
+                <div class="category-item"><a href=""><img src="/BookWorm/pictures/horror.jpg" alt="" class="image"></a>Horror</div>
+                <div class="category-item"><a href=""><img src="/BookWorm/pictures/fantasy.jpg" alt="" class="image"></a>Fantasy</div>
+                <div class="category-item"><a href="horror.html"><img src="/BookWorm/pictures/horror.jpg" alt="" class="image"></a>Horror</div>
             </div>
         </section>
         <section class="bestselling-books">
             <h2>Bestselling Books</h2>
             <div class="book-list">
-                <div class="book-item"><a href=""><img src="Remindersofhim.jpg" alt="" class="image"></a></div>
-                <div class="book-item"><a href=""><img src="verity.jpg" alt="" class="image"></a></div>
-                <div class="book-item"><a href=""><img src="nov9.jpg" alt="" class="image"></a></div>
-                <div class="book-item"><a href=""><img src="themaid.jpg" alt="" class="image"></a></div>
-                <div class="book-item"><a href=""><img src="itendswithus.jpg" alt="" class="image"></a></div>
-                <div class="book-item"><a href=""><img src="bringmeback.jpg" alt="" class="image"></a></div>
-                <div class="book-item"><a href=""><img src="thewifebetus.jpg" alt="" class="image"></a></div>
-                <div class="book-item"><a href=""><img src="car.jpg" alt="" class="image"></a></div>
+                <div class="book-item"><a href=""><img src="/BookWorm/pictures/Remindersofhim.jpg" alt="" class="image"></a></div>
+                <div class="book-item"><a href=""><img src="/BookWorm/pictures/verity.jpg" alt="" class="image"></a></div>
+                <div class="book-item"><a href=""><img src="/BookWorm/pictures/nov9.jpg" alt="" class="image"></a></div>
+                <div class="book-item"><a href=""><img src="/BookWorm/pictures/themaid.jpg" alt="" class="image"></a></div>
+                <div class="book-item"><a href=""><img src="/BookWorm/pictures/itendswithus.jpg" alt="" class="image"></a></div>
+                <div class="book-item"><a href=""><img src="/BookWorm/pictures/bringmeback.jpg" alt="" class="image"></a></div>
+                <div class="book-item"><a href=""><img src="/BookWorm/pictures/thewifebetus.jpg" alt="" class="image"></a></div>
+                <div class="book-item"><a href=""><img src="/BookWorm/pictures/car.jpg" alt="" class="image"></a></div>
                 
             </div>
         </section>
         <section class="featured-books">
             <h2>Featured Books</h2>
             <div class="book-list">
-                <div class="book-item"><a href=""><img src="goodasgone.jpg" alt="" class="image"></a></div>
-                <div class="book-item"><a href=""><img src="bloodorage.jpg" alt="" class="image"></a></div>
-                <div class="book-item"><a href=""><img src="go.jpg" alt="" class="image"></a></div>
-                <div class="book-item"><a href=""><img src="eye.jpg" alt="" class="image"></a></div>
-                <div class="book-item"><a href=""><img src="goodasgone.jpg" alt="" class="image"></a></div>
-                <div class="book-item"><a href=""><img src="goodasgone.jpg" alt="" class="image"></a></div>
-                <div class="book-item"><a href=""><img src="goodasgone.jpg" alt="" class="image"></a></div>
-                <div class="book-item"><a href=""><img src="goodasgone.jpg" alt="" class="image"></a></div>
+                <div class="book-item"><a href=""><img src="/BookWorm/pictures/goodasgone.jpg" alt="" class="image"></a></div>
+                <div class="book-item"><a href=""><img src="/BookWorm/pictures/bloodorage.jpg" alt="" class="image"></a></div>
+                <div class="book-item"><a href=""><img src="/BookWorm/pictures/go.jpg" alt="" class="image"></a></div>
+                <div class="book-item"><a href=""><img src="/BookWorm/pictures/eye.jpg" alt="" class="image"></a></div>
+                <div class="book-item"><a href=""><img src="/BookWorm/pictures/goodasgone.jpg" alt="" class="image"></a></div>
+                <div class="book-item"><a href=""><img src="/BookWorm/pictures/goodasgone.jpg" alt="" class="image"></a></div>
+                <div class="book-item"><a href=""><img src="/BookWorm/pictures/goodasgone.jpg" alt="" class="image"></a></div>
+                <div class="book-item"><a href=""><img src="/BookWorm/pictures/goodasgone.jpg" alt="" class="image"></a></div>
             </div>
         </section>
         
